@@ -1,0 +1,55 @@
+{
+  "name": "react-native-idosdk",
+  "version": "1.0.1",
+  "description": "Getui ido sdk plugin for react-native",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GetuiLaboratory/react-native-idosdk.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "push",
+    "getui",
+    "react-native",
+    "Getui",
+    "ido"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GetuiLaboratory/react-native-idosdk/issues"
+  },
+  "homepage": "https://github.com/GetuiLaboratory/react-native-idosdk#readme",
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "z",
+        "resolv",
+        "CFNetwork",
+        "libz",
+        "libc++",
+        "libsqlite3",
+        "Security",
+        "MobileCoreServices",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "AVFoundation",
+        "JavaScriptCore",
+        "UserNotifications",
+        "CoreLocation",
+        "AdSupport",
+        "CoreFoundation",
+        "Foundation",
+        "UIKit",
+        "PushKit",
+        "Network"
+      ]
+    }
+  },
+  "dependencies": {
+  }
+}
