@@ -10,7 +10,7 @@
 1. React Native Version 
    "react": "18.3.1"
    "react-native": "0.75.4"
-2. 当前react-native-idosdk版本 1.0.0
+2. 当前react-native-idosdk版本 1.0.2
 
 
 注意：
@@ -40,7 +40,7 @@ react-native link
 
 # 2. 配置
 
-* yourAppId  yourAppKey   yourAppSecret  需要去 [个推官网](https://dev.getui.com) 注册后，在后台配置获取。
+* appId 需要去 [个推官网](https://dev.getui.com) 注册后，在后台配置获取。
 
 
 
@@ -63,12 +63,14 @@ react-native link
 
 ````
 pod 'IdoSdkRN', :path => '../node_modules/react-native-idosdk'
+
 ````
 
 2. 终端执行如下命令：
 
 ````
 pod install
+
 ````
 
 **注意:** 
