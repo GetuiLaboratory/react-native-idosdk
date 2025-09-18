@@ -1,8 +1,6 @@
 
-
 # react-native-idosdk
 * idosdk 是个推官方开发的 IDOSDK React Native 插件，使用该插件可以方便快速地集成推送功能。
-
 
 
 # 环境
@@ -10,11 +8,7 @@
 1. React Native Version 
    "react": "18.3.1"
    "react-native": "0.75.4"
-2. 当前react-native-idosdk版本 1.0.2
-
-
-注意：
- 
+2. 当前react-native-idosdk版本 1.0.4
 
 
 # 1.安装
@@ -34,24 +28,36 @@ npx pod-install
 
 step2: 链接 (非Autolinking项目, 和iOS非pod项目)
 react-native link
- 
+````
 
+### 1.2 完整代码示例
  
+ *[AndroidDemo](example/AndroidDemo)
+ *[iOSDemo](example/iOSDemo)
 
 # 2. 配置
 
 * appId 需要去 [个推官网](https://dev.getui.com) 注册后，在后台配置获取。
 
 
-
 ## 2.1 Android
-
-
+* AndroidManifest.xml中添加配置
+````xml
+   <manifest>
+    <application>
+           <meta-data android:name="GETUI_APPID" android:value="你的appid"/>
+           <meta-data android:name="GT_INSTALL_CHANNEL" android:value=""/>
+      </application>
+   </manifest>
+````
+* 如果开启混淆
+````proguard
+  -keep class com.getui.gs.** { *; }
+  -keep class com.getui.gtc.** {*;}
+````
  
-
 ## 2.2 IOS
  
-
 
 ### 2.2.2 使用CocoaPods安装 
 
@@ -84,13 +90,13 @@ pod install
   ```
 
 
-
-
 ### 2.4 API调用与订阅消息
 
 查看示例
 
 android 与 ios 有部分API不同, 查看插件的index.js 或 index.d.ts中API的注释
+
+
 
 
 ## 3.iOS注意事项 

@@ -14,20 +14,20 @@ import java.util.List;
  * Created by zhourh on 2017/3/6.
  */
 
-public class GetuiPackage implements ReactPackage {
+public class GetuiIdoPackage implements ReactPackage {
 
-    public GetuiPackage(boolean logEnable) {
+    public GetuiIdoPackage(boolean logEnable) {
         GetuiLogger.ENABLE = logEnable;
     }
 
-    public GetuiPackage(){
+    public GetuiIdoPackage(){
         GetuiLogger.ENABLE = true;
     }
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Arrays.asList(new NativeModule[]{
-                new GetuiModule(reactContext)
+                new GetuiIdoModule(reactContext)
         });
     }
 
