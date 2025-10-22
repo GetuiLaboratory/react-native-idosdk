@@ -59,7 +59,7 @@ react-native link
 ## 2.2 IOS
  
 
-### 2.2.2 使用CocoaPods安装 
+### 2.2.1 使用CocoaPods安装 
 
 如果是原生应用集成react-native
 
@@ -90,17 +90,16 @@ pod install
   ```
 
 
-### 2.4 API调用与订阅消息
+### 2.2.2 API调用与订阅消息
 
 查看示例
 
 android 与 ios 有部分API不同, 查看插件的index.js 或 index.d.ts中API的注释
 
 
+### 2.2.3 iOS注意事项 
+
+
 ## 2.3 ohos
 
 [鸿蒙文档](react-native-harmony-ido/README.md)
-
-## 3.iOS注意事项 
-
-

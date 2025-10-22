@@ -105,7 +105,7 @@ export default App;
 ```json
 "dependencies": {
     "@rnoh/react-native-openharmony": "0.72.90",
-    "IdoOhosSdk": "file:../../node_modules/gt-ido-ohos-plugin/IdoOhosSdk/IdoOhosSdk.har"
+    "IdoOhosSdk": "file:../../node_modules/gt-ido-ohos-plugin/harmony/IdoOhosSdk.har"
   }
 ```
 点击右上角的 `sync` 按钮
