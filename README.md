@@ -34,6 +34,7 @@ react-native link
  
  *[AndroidDemo](example/AndroidDemo)
  *[iOSDemo](example/iOSDemo)
+ *[OhosDemo](example/OhosDemo)
 
 # 2. 配置
 
