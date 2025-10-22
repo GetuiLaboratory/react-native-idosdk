@@ -1,10 +1,10 @@
 {
   "name": "gt-ido-ohos-plugin",
-  "version": "1.0.0",
-  "description": "Add numbers with TurboModules",
+  "version": "1.0.1",
+  "description": "ido for ohos",
   "main": "index.ts",
   "keywords": [],
-  "author": "",
+  "author": "yangshgetui",
   "license": "ISC",
   "harmony": {
     "alias": "gt-ido-ohos-plugin",

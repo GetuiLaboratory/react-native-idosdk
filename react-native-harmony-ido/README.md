@@ -1,8 +1,8 @@
- [Github 地址]()
+ [Github 地址](https://github.com/GetuiLaboratory/react-native-idosdk/tree/main/react-native-harmony-ido)
 
 ## 安装与使用
 * 下载鸿蒙插件工程[gt-ido-ohos-plugin-1.0.0.tgz](gt-ido-ohos-plugin-1.0.0.tgz)
-* 将gt-ido-ohos-plugin-1.0.0.tgz放到RN工程下
+* 将gt-ido-ohos-plugin-1.0.1.tgz放到RN工程下
 * 安装 , 如:npm install file:gt-ido-ohos-plugin/gt-ido-ohos-plugin-1.0.0.tgz
 
 
