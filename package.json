@@ -1,6 +1,6 @@
 {
   "name": "react-native-idosdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Getui ido sdk plugin for react-native",
   "main": "index.js",
   "scripts": {
@@ -51,5 +51,8 @@
     }
   },
   "dependencies": {
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^20.0.2"
   }
 }

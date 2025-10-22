@@ -19,3 +19,4 @@ example/AndroidDemo/node_modules
 *.cxx
 /example/AndroidDemo/android/app/.cxx/
 /example/AndroidDemo/__tests__/
+/package-lock.json

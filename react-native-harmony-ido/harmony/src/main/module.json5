@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "IdoOhosSdk",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}

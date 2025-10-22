@@ -8,7 +8,7 @@
 1. React Native Version 
    "react": "18.3.1"
    "react-native": "0.75.4"
-2. 当前react-native-idosdk版本 1.0.4
+2. 当前react-native-idosdk版本 1.0.5
 
 
 # 1.安装
@@ -97,7 +97,9 @@ pod install
 android 与 ios 有部分API不同, 查看插件的index.js 或 index.d.ts中API的注释
 
 
+## 2.3 ohos
 
+[鸿蒙文档](react-native-harmony-ido/README.md)
 
 ## 3.iOS注意事项 
 
